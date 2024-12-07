@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right "></div>
+
+        <div class="book">
+            <!-- profile page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="imgs/per-profile-img.jpg" alt="Profile picture">
+                    <h1>Nazarov Ravshanbek</h1>
+                    <h3>C# developer</h3>
+                    
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-google'></i></a>
+                        <a href="#"><i class='bx bxl-discord-alt' ></i></a>
+                        <a href="#"><i class='bx bxl-reddit' ></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                    </div>
+
+                    <p>Hi, I'm Nazarov Ravshanbek a C# Developer. Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience) -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2025-2029</span>
+                            <h3>Google - Company</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div>  
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2029-2034</span>
+                            <h3>Tesla - Company</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div> 
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2031-2035</span>
+                            <h3>Facebook - Company</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div> 
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- page 2 (education) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2020-2021</span>
+                            <h3>C# Developer - Tashkent University unversity of IT</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div>  
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2031-2033</span>
+                            <h3>Back-End - Princton University</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div> 
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2033-2035</span>
+                            <h3>AI Developer - Harvard University</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptatibus nam eaque neque ea quibusdam? Perferendis mollitia sint saepe fuga facilis porro aspernatur velit quaerat.</p>
+                        </div> 
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services) -->
+                <div class="page-front">
+                    <h1 class="title">My Services</h1>
+
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a> 
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-paint' ></i>
+                            <h3>Creative Design</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a> 
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-bar-chart-alt' ></i>
+                            <h3>Digital Marketing</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a> 
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-search' ></i>
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a> 
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+                <!-- page 3 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5' ></i>.NET</span>
+                                <span><i class='bx bxl-css3' ></i>C#</span>
+                                <span><i class='bx bxl-javascript' ></i>JavaScript</span>
+                                <span><i class='bx bxl-react' ></i>ReactJs</span>
+                                <span><i class='bx bxl-tailwind-css' ></i>Tailwind</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-nodejs' ></i>NodeJS</span>
+                                <span><i class='bx bxl-java' ></i>Java</span>
+                                <span><i class='bx bxl-php' ></i>PHP</span>
+                                <span><i class='bx bxl-mongodb' ></i>MongoDB</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>UI/UX Design</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-figma' ></i>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="number-page">4</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div> 
+            
+            <!-- page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (lastes project or my portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">Lastest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="./imgs/project-back.jpg" alt="Project image">
+                        </div>
+                        
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>Project Name</h3>
+                                <a href="#">Live Preview<i class='bx bx-link-external' ></i></a>
+                            </div>
+                            <p>Tech Used</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est sit cum doloremque magni, fuga quis eveniet explicabo error at beatae.</p>
+                        </div>
+    
+                        <div class="btn-box">
+                            <a href="#" class="btn">Source code</a>
+                            <a href="#" class="btn">More Projects</a>
+                        </div>
+                    </div>
+                    
+                    <span class="number-page">5</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- page 6 (contact me) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Adress" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <P>Profile</P>
+                        <i class='bx bxs-user'></i>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
